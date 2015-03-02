@@ -1,0 +1,43 @@
+//eye.x eye.y eye.z
+//yaxis.x yaxis.y yaxis.z
+//isdeep fineshade
+//len
+
+//name
+//islight istexture iscolor ismaterial
+//place parameters
+//texture parameters   1 file_name
+//color parameters     3 double
+//material parameters  3 double + reflectn
+
+BEGIN:
+0 -2 1
+0 1 0
+0 0
+
+sphere
+1 0 1 0
+0 1 10
+0.3
+1 1 1
+
+plain
+0 0 1 1
+0 0 -1
+1
+0.4 0.3 0.3
+0 0 1 0
+
+plain
+0 0 1 1
+0 1 0
+8
+0.3 0.5 0.4
+0 0 1 0
+
+sphere
+0 0 1 1
+0 2 1
+1
+0.7 0.7 1
+0.5 0 0 0
